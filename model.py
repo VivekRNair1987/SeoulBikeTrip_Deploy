@@ -12,7 +12,7 @@ curr_path = os.path.dirname(os.path.realpath(__file__))
 feat_cols = ['Distance', 'Haversine', 'Phour', 'Pmin', 
 'Dhour', 'Dmin', 'Temp', 'Humid', 'Solar', 'Dust']
 
-xgb_final = joblib.load(curr_path + r"final_bestmodel121.joblib")
+xgb_final = joblib.load(curr_path + r"/final_bestmodel121.joblib")
 print(xgb_final)
 
 print(xgb_final)
